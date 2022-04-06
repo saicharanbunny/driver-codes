@@ -19,9 +19,29 @@ public class Main {
     }
   
     static String solve(int n){
-      	// Your code goes here
-        // n is the given input
-      
+      int count=0;
+      for (int j=2;j<=n;j++){
+        if (isPrime(j)){
+if(n%j==00){
+  if(j==2//j==7){
+     count++;
+     }else}
+    return"Regular";
+     }
+     }
+     }
+     }
+     return{"special"};
+     static boolean isprime(int n){
+       int count=0;
+       for(int i =2;i<=math.sqrt(n);i++){
+         if(n%i==0){
+           return false;
+         }
+       }
+       return true;
+     }
+     
         String result = "Special";
         return result;
     }
